@@ -102,19 +102,6 @@ Run the lightweight unit tests (no network calls; they mock HTTP):
 pytest -q
 ```
 
-## GitHub Steps (quick)
-
-```bash
-# 1) Create repo on GitHub (empty, public). Copy the SSH/HTTPS URL.
-# 2) In the project folder:
-git init
-git add .
-git commit -m "City Spending Enricher: initial commit"
-git branch -M main
-git remote add origin <YOUR_REPO_URL>
-git push -u origin main
-```
-
 ## Notes
 
 - Respectful timeouts of 10 seconds per HTTP call are enforced.
